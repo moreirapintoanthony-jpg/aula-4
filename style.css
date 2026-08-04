@@ -2,81 +2,65 @@ body {
     max-width: 100vw;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4edf7;
+    background-color: #FFFFFF;
 }
 
 header {
-    background-color: #4A154B; /* Cor Secundária (Roxo) */
-    color: #FFFFFF;
+    background-color: #008000; /* Verde principal */
+    color: #FFFFFF;            /* Branco secundário */
     text-align: center;
     margin: 0 auto;
-    padding: 24px 16px;
-}
-
-header h1 {
-    margin-bottom: 8px;
-    color: #C8A2C8; /* Detalhe em Lilás */
+    padding: 16px;
 }
 
 main {
     background-color: #FFFFFF;
-    color: #4A154B;
+    color: #008000;
     margin: 0 auto;
     padding: 16px;
-
     display: flex;
     flex-wrap: wrap;
 }
 
 article {
     display: flex;
-
-    border: 2px solid #C8A2C8; /* Borda em Lilás */
-    border-radius: 8px;
-    background-color: #fdfbfe;
-
+    border: 1px solid #008000;
     margin: 16px;
     gap: 16px;
     padding: 16px;
-
     flex: 1 1 25%;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
+    background-color: #F9FFF9; /* Leve toque verde claro para harmonia */
 }
 
 img {
     width: 80px;
     height: 80px;
     object-fit: cover;
-    border-radius: 6px;
 }
 
 .artigo-autor {
     font-weight: bold;
-    color: #4A154B;
-    font-size: 0.9rem;
 }
 
 .artigo-fonte {
-    font-size: 0.85rem;
-    color: #6c757d;
-    font-style: italic;
+    font-size: 0.9rem;
+    color: #555555;
 }
 
 button {
-    background-color: #C8A2C8; /* Lilás */
-    color: #4A154B; /* Roxo */
-    border: 1px solid #4A154B;
+    background-color: #008000;
+    color: #FFFFFF;
+    border: none;
     padding: 6px 12px;
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
-    transition: 0.2s;
 }
 
 button:hover {
-    background-color: #4A154B;
-    color: #FFFFFF;
+    background-color: #006400;
 }
